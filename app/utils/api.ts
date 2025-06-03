@@ -1,8 +1,8 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
 // API Configuration
-export const API_URL = 'https://capstone-server-go3v.onrender.com/api';
-// export const API_URL = 'http://192.168.1.1:5000/api';  // Replace with your computer's local IP address
+// export const API_URL = 'https://capstone-server-go3v.onrender.com/api';
+export const API_URL = 'http://localhost:5000/api';  // Replace with your computer's local IP address
 
 // Validation functions
 const validateEmail = (email: string): boolean => {
